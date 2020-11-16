@@ -1,0 +1,296 @@
+.onSaleIcon {
+    width: 24px;
+    vertical-align: middle;
+  }
+  .tableList .el-checkbox__inner{
+    width:17px;
+    height:17px;
+  }
+  .el-table.tableList .cell {
+    line-height: 21px;
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* padding-left:0;
+    padding-right:0; */
+  }
+  
+  .el-table.tableList th {
+    padding: 13px 0;
+  }
+  .el-table.tableList td{
+      /* padding:17px 0; */
+  }
+  .tableList .el-checkbox__input.is-checked .el-checkbox__inner,
+  .tableList .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background-color: #ff8800;
+    border-color: #ff8800;
+    width: 17px;
+    height: 17px;
+  }
+  .tableList .el-checkbox__input.is-focus .el-checkbox__inner {
+    border-color: #ff8800;
+  }
+  .tableList .el-table__empty-text{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+  }
+  .sku-price-text {
+    font-size: 18px;
+    font-family: Akrobat, Akrobat-ExtraBold;
+    font-weight: 600;
+    text-align: center;
+    color: #333333;
+    letter-spacing: 0px;
+  }
+  .tableList .el-checkbox__inner::after {
+    left: 5px;
+    top: 2px;
+  }
+  .tableList .el-checkbox__inner:hover {
+    border-color: #ff8800;
+  }
+  .el-table /deep/.DisabledSelection .cell .el-checkbox__inner {
+    margin-left: 0px;
+    position: relative;
+  }
+  /* .el-table /deep/.DisabledSelection .cell:before {
+    content: "全选";
+    position: absolute;
+    right: 5px;
+  } */
+  .el-table.tableList td {
+    font-size: 16px;
+    color: #333333;
+  }
+  .sort-icon{
+    width:18px;
+    height:18px;
+    vertical-align: middle;
+  }
+  .el-table.tableList .cell span.skucode-list-text{
+    color:#FD6800;
+    font-weight: 500;
+    font-size:18px;
+  }
+  .el-table.tableList .cell span.sku-line{
+    width: 8px;
+height: 22px;
+font-size: 16px;
+font-family: PingFangSC, PingFangSC-Regular;
+font-weight: 400;
+text-align: right;
+color: #999999;
+line-height: 22px;
+letter-spacing: 0px;
+margin:0 3px;
+  }
+  .el-table.tableList .cell span.sku-text{
+    font-size:16px;
+    color:#333333;
+    font-weight: 500;
+  }
+  .el-table.tableList th {
+    padding: 12px 0 13px;
+    font-size: 16px;
+  }
+  .tableList .el-table-column--selection .cell{
+    padding:0 11px;
+  }
+  .tableList .el-checkbox__input.is-checked .el-checkbox__inner::after{
+    transform:rotate(45deg) scaleY(1);
+    -webkit-transform:rotate(45deg) scaleY(1);
+  }
+  /* 800 */
+  @media screen and (max-width: 850px) {
+    .el-table.tableList .el-table-column--selection .cell{
+      padding-left:5px;
+      padding-right:5px;
+    }
+    .onSaleIcon {
+      width: 12px;
+      vertical-align: middle;
+    }
+    .el-table.tableList .cell {
+      line-height: 14px;
+      font-weight: 500;
+      overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-right:7px;
+    padding-left:7px;
+    }
+    .el-table.tableList td,
+    .el-table.tableList th {
+      padding: 8px 0;
+    }
+    .sku-price-text {
+      font-size: 11px;
+      font-family: Akrobat, Akrobat-ExtraBold;
+      font-weight: 600;
+      text-align: center;
+      color: #333333;
+      letter-spacing: 0px;
+    }
+    .tableList .el-checkbox__input.is-checked .el-checkbox__inner,
+    .tableList .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+      background-color: #ff8800;
+      border-color: #ff8800;
+      width: 10px;
+      height: 10px;
+    }
+    .tableList .el-checkbox__inner {
+      width: 10px;
+      height: 10px;
+    }
+    .tableList .el-checkbox__input.is-focus .el-checkbox__inner {
+      border-color: #ff8800;
+    }
+    .tableList .el-checkbox__inner::after {
+      left: 2px;
+      top: 0px;
+    }
+    .tableList .el-checkbox__inner:hover {
+      border-color: #ff8800;
+    }
+    .el-table /deep/.DisabledSelection .cell .el-checkbox__inner {
+      margin-left: 0px;
+      position: relative;
+    }
+    /* .el-table /deep/.DisabledSelection .cell:before {
+      content: "全选";
+      position: absolute;
+      right: 7px;
+    } */
+    .el-table.tableList td {
+      font-size: 10px;
+      color: #333333;
+    }
+    .sort-icon{
+      width:12px;
+      height:12px;
+      vertical-align: middle;
+    }
+    .el-table.tableList .cell span.skucode-list-text{
+      color:#FD6800;
+      font-weight: 500;
+      font-size:11px;
+    }
+    .el-table.tableList .cell span.sku-line{
+      width: 6px;
+      height: 13px;
+      font-size: 9px;
+      font-family: PingFangSC, PingFangSC-Regular;
+      font-weight: 400;
+      text-align: right;
+      color: #999999;
+      line-height: 13px;
+      letter-spacing: 0px;
+      margin:0 3px;
+    }
+    .el-table.tableList .cell span.sku-text{
+      font-size:10px;
+      color:#333333;
+      font-weight: 500;
+    }
+    .el-table.tableList th {
+      padding: 6px 0 8px;
+      font-size: 10px;
+    }
+  }
+  /* 1920 */
+  @media screen and (min-width: 1900px) {
+    .el-table.tableList .cell span.skucode-list-text{
+      color:#FD6800;
+      font-weight: 500;
+      font-size:26px;
+    }
+   
+    .el-table.tableList .cell span.sku-line{
+      width: 11px;
+      height: 30px;
+      font-size: 22px;
+      font-family: PingFangSC, PingFangSC-Regular;
+      font-weight: 400;
+      text-align: right;
+      color: #999999;
+      line-height: 30px;
+      letter-spacing: -1px;
+      margin:0 5px;
+    }
+    .el-table.tableList .cell span.sku-text{
+      font-size:22px;
+      color:#333333;
+      font-weight: 500;
+    }
+    .sort-icon{
+      width:24px;
+      height:24px;
+      vertical-align: middle;
+    }
+    .onSaleIcon {
+      width: 30px;
+      vertical-align: middle;
+    }
+    .sku-price-text {
+      font-size: 26px;
+      font-family: Akrobat, Akrobat-ExtraBold;
+      font-weight: 600;
+      text-align: center;
+      color: #333333;
+      letter-spacing: 0px;
+    }
+    .el-table.tableList .cell {
+      line-height: 30px;
+      font-weight: 500;
+      overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    }
+    .el-table.tableList th {
+      padding: 17px 0 18px;
+      font-size: 22px;
+    }
+    .el-table.tableList td {
+      /* padding: 26px 0; */
+    }
+    .tableList .el-checkbox__input.is-checked .el-checkbox__inner,
+    .tableList .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+      background-color: #ff8800;
+      border-color: #ff8800;
+      width: 24px;
+      height: 24px;
+    }
+    .tableList .el-checkbox__inner {
+      width: 24px;
+      height: 24px;
+    }
+    .tableList .el-checkbox__input.is-focus .el-checkbox__inner {
+      border-color: #ff8800;
+    }
+    .tableList .el-checkbox__inner::after {
+      left: 8px;
+      top: -1px;
+      width: 7px;
+      height: 18px;
+    }
+    .tableList .el-checkbox__inner:hover {
+      border-color: #ff8800;
+    }
+    .el-table /deep/.DisabledSelection .cell .el-checkbox__inner {
+      margin-left: 0px;
+      position: relative;
+    }
+    /* .el-table /deep/.DisabledSelection .cell:before {
+      content: "全选";
+      position: absolute;
+      right: 7px;
+    } */
+    .el-table.tableList td {
+      font-size: 22px;
+      color: #333333;
+    }
+  }

@@ -1,0 +1,78 @@
+#empytBox {
+    width: 100%;
+    height:100%;
+    background: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  @media only screen and (min-width: 1900px) {
+    /* .hasFilBox {
+      height: calc(100% - 505.84px);
+      height: -webkit-calc(100% - 505.84px);
+    }
+    .noFilBox {
+      height: calc(100% - 265.55px);
+      height: -webkit-calc(100% - 265.55px);
+    } */
+    #empytBox img {
+      width: 140px;
+      height: 140px;
+    }
+    #empytBox {
+      padding-top: 52px;
+    }
+    #empytBox p {
+      margin-top: 0px;
+      font-size: 30px;
+      font-weight: 500;
+    }
+  }
+  @media only screen and (max-width: 1900px) and (min-width: 850px) {
+    /* .hasFilBox {
+      height: calc(100% - 355.29px);
+      height: -webkit-calc(100% - 355.29px);
+    }
+    .noFilBox {
+      height: calc(100% - 186px);
+      height: -webkit-calc(100% - 186px);
+    } */
+    #empytBox img {
+      width: 110px;
+      height: 110px;
+    }
+    #empytBox {
+      /* padding-top: 130px; */
+      padding-top:39px;
+    }
+    #empytBox p {
+      margin-top: 0px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+  @media only screen and (max-width: 850px) {
+    /* .hasFilBox {
+      height: calc(100% - 215.29px);
+      height: -webkit-calc(100% - 215.29px);
+    }
+    .noFilBox {
+      height: calc(100% - 112px);
+      height: -webkit-calc(100% - 112px);
+    } */
+    #empytBox img {
+      width: 90px;
+      height: 90px;
+    }
+    #empytBox {
+      padding-top: 50px;
+    }
+    #empytBox p {
+      margin-top: 0px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .tableList .el-table__empty-text{
+      line-height: 40px;
+    }
+  }

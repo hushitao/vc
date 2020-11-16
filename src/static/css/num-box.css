@@ -1,0 +1,567 @@
+.edit-quity-info-wrap{
+  margin:0 0 15px 0;
+  padding:0;
+  overflow: hidden;
+}
+.edit-quity-info-wrap span{
+  font-size:18px;
+  display: inline-block;
+  width:48%;
+  text-align: left;
+}
+.edit-quity-info-wrap span:first-child{
+ margin-right: 2%;
+}
+.numDialog .el-dialog__header span{
+  display: inline-block;
+  width:83%;
+  overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;
+}
+.numberBox {
+    width: 100%;
+    overflow: hidden;
+  }
+  .numberBox ul {
+    list-style-type: none;
+    overflow: hidden;
+    width: 286px;
+    padding-left: 20px;
+    float: left;
+    /* display: -webkit-flex;
+    display: flex;
+    width:410px;
+    height:366px; */
+  }
+  .numberBox ul li {
+    float: left;
+    width: 92px;
+    height: 59px;
+    text-align: center;
+    line-height: 59px;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    color: #2a2b2c;
+  }
+  .numberBox ul li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .numberBox ul li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .numDialog .el-dialog {
+    width: 478px;
+    /* height: 468px; */
+    background: #ffffff;
+    border-radius: 8px;
+  }
+  .numDialog .el-dialog__headerbtn .el-dialog__close {
+    font-size: 26px;
+  }
+  .numDialog .el-dialog__title {
+    font-size: 26px;
+    font-weight: 500;
+    color: #333333;
+  }
+  .inputWrap {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0px 26px 0;
+  }
+  .searchNumInput .el-input__inner {
+    padding: 24px 48px;
+    background: #ffffff;
+    border: 1px solid #333333;
+    border-radius: 40px;
+    font-size: 18px;
+  }
+  .searchNumInput.el-input--prefix .el-input__inner {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .searchNumInput .el-input__inner:focus {
+    border: 1px solid #ff9c0e;
+  }
+  .searchNumInput .el-input__prefix,
+  .searchNumInput .el-input__suffix {
+    top: 10px;
+  }
+  .searchNumInput .el-input__prefix {
+    left: 15px;
+  }
+  .searchNumInput .el-input__suffix {
+    right: 15px;
+  }
+  .searchNumInput .el-input__suffix-inner img {
+    width: 28px;
+  }
+  .searchNumInput .el-input__prefix img {
+    width: 28px;
+  }
+  .numberBox li.active {
+    background: #e8ebed;
+    border-radius: 9px;
+  }
+  .right-num {
+    float: left;
+    width: 92px;
+    height: 251px;
+    margin: 14px 0 14px 5px;
+  }
+  .right-num p:first-child {
+    width: 88px;
+    height: 59px;
+    margin-top: 0;
+    background: #ffffff;
+    border: 2px solid #eceff1;
+    border-radius: 9px;
+    margin-bottom: 5px;
+    line-height: 59px;
+    text-align: center;
+  }
+  .right-num p:first-child img {
+    width: 32px;
+    vertical-align: middle;
+  }
+  .right-num p:last-child {
+    width: 100%;
+    height: 185px;
+    margin: 0;
+    background: linear-gradient(90deg, #ff9c0e, #ff8800 101%);
+    /* background:-moz-linear-gradient(90deg, #ff9c0e, #ff8800 101%); */
+             background:-webkit-linear-gradient(90deg, #ff9c0e, #ff8800 101%);
+             /* background: -o-linear-gradient(90deg, #ff9c0e, #ff8800 101%); */
+             
+    border-radius: 8px;
+    text-align: center;
+    line-height: 185px;
+    font-size: 20px;
+    font-family: SourceHanSansCN, SourceHanSansCN-Medium;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+  }
+  .pageWrap {
+    width: 100%;
+    text-align: center;
+  }
+  .pageWrap span.tt {
+    font-size: 20px;
+    color: #333333;
+    font-weight: 500;
+  }
+  .pageWrap input {
+    background: none;
+    outline: none;
+    border: none;
+    width: 92px;
+    height: 35px;
+    background-color: #ffe7ca;
+    text-align: center;
+    margin: 0 5px;
+    font-size: 22px;
+    color: #ff8d00;
+    border-bottom: 2px solid #d8d8d8;
+  }
+  .pageWrap [class^="el-icon-"] {
+    font-size: 36px;
+    vertical-align: middle;
+  }
+  .addIcon {
+    color: #ff8800;
+  }
+  .errMessage {
+    margin-top: 4px;
+    width: 100%;
+    height: 22px;
+    text-align: center;
+  }
+  .errMessage img {
+    vertical-align: middle;
+    width: 16px;
+    margin-right: 8px;
+  }
+  .errMessage span {
+    font-size: 16px;
+    color: #999999;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  /* 800 */
+@media screen and (max-width: 850px) {
+  .numDialog .el-dialog--center .el-dialog__body{
+    padding:0px 25px 10px;
+  }
+  .edit-quity-info-wrap{
+    margin:0 0 10px 0;
+    padding:0;
+    overflow: hidden;
+  }
+  .edit-quity-info-wrap span{
+    font-size:14px;
+    display: inline-block;
+    width:48%;
+    text-align: left;
+  }
+  .edit-quity-info-wrap span:first-child{
+   margin-right: 2%;
+  }
+    .numberBox {
+        width: 100%;
+        overflow: hidden;
+      }
+      .numberBox ul {
+        list-style-type: none;
+        overflow: hidden;
+        width: 182px;
+        padding-left: 6px;
+        float: left;
+      }
+      .numberBox ul li {
+        float: left;
+        width: 54px;
+        height: 33px;
+        text-align: center;
+        line-height: 33px;
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        color: #2a2b2c;
+      }
+      .numberBox ul li:nth-child(3n) {
+        margin-right: 0;
+      }
+      .numberBox ul li:nth-child(3n) {
+        margin-right: 0;
+      }
+      .numDialog .el-dialog {
+        width: 315px;
+        /* height: 468px; */
+        background: #ffffff;
+        border-radius: 8px;
+      }
+      .numDialog .el-dialog__headerbtn .el-dialog__close {
+        font-size: 14px;
+      }
+      .numDialog .el-dialog__title {
+        font-size: 14px;
+        font-weight: 500;
+        color: #333333;
+      }
+      .inputWrap {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 0px 11px 0;
+      }
+      .searchNumInput .el-input__inner {
+        padding: 10px 30px;
+        background: #ffffff;
+        border: 1px solid #333333;
+        border-radius: 40px;
+        font-size: 14px;
+      }
+      .searchNumInput.el-input--prefix .el-input__inner {
+        padding-left: 37px;
+        padding-right: 37px;
+      }
+      .searchNumInput .el-input__inner:focus {
+        border: 1px solid #ff9c0e;
+      }
+      .searchNumInput .el-input__prefix,
+      .searchNumInput .el-input__suffix {
+        top: 11px;
+      }
+      .searchNumInput .el-input__prefix {
+        left: 15px;
+      }
+      .searchNumInput .el-input__suffix {
+        right: 15px;
+      }
+      .searchNumInput .el-input__suffix-inner img {
+        width: 18px;
+      }
+      .searchNumInput .el-input__prefix img {
+        width: 18px;
+      }
+      .numberBox li.active {
+        background: #e8ebed;
+        border-radius: 9px;
+      }
+      .right-num {
+        float: left;
+        width: 54px;
+        height: 134px;
+        margin: 14px 0 14px 5px;
+      }
+      .right-num p:first-child {
+        width: 50px;
+        height: 33px;
+        margin-top: 0;
+        background: #ffffff;
+        border: 2px solid #eceff1;
+        border-radius: 9px;
+        margin-bottom: 10px;
+        line-height: 33px;
+        text-align: center;
+      }
+      .right-num p:first-child img {
+        width: 17px;
+        vertical-align: middle;
+      }
+      .right-num p:last-child {
+        width: 100%;
+        height: 98px;
+        margin: 0;
+        background: linear-gradient(90deg, #ff9c0e, #ff8800 101%);
+        /* background:-moz-linear-gradient(90deg, #ff9c0e, #ff8800 101%); */
+        background:-webkit-linear-gradient(90deg, #ff9c0e, #ff8800 101%);
+        /* background: -o-linear-gradient(90deg, #ff9c0e, #ff8800 101%); */
+        
+        border-radius: 8px;
+        text-align: center;
+        line-height: 98px;
+        font-size: 12px;
+        font-family: SourceHanSansCN, SourceHanSansCN-Medium;
+        font-weight: 500;
+        text-align: center;
+        color: #ffffff;
+      }
+      .pageWrap {
+        width: 100%;
+        text-align: center;
+      }
+      .pageWrap span.tt {
+        font-size: 12px;
+        color: #333333;
+        font-weight: 500;
+      }
+      .pageWrap input {
+        background: none;
+        outline: none;
+        border: none;
+        width: 48px;
+        height: 28px;
+        background-color: #ffe7ca;
+        text-align: center;
+        margin: 0 5px;
+        font-size: 14px;
+        color: #ff8d00;
+        border-bottom: 2px solid #d8d8d8;
+      }
+      .pageWrap [class^="el-icon-"] {
+        font-size: 14px;
+        vertical-align: middle;
+      }
+      .addIcon {
+        color: #ff8800;
+      }
+      .errMessage {
+        margin-top: 4px;
+        width: 100%;
+        height: 22px;
+        text-align: center;
+      }
+      .errMessage img {
+        vertical-align: middle;
+        width: 14px;
+        margin-right: 8px;
+      }
+      .errMessage span {
+        font-size: 12px;
+        color: #999999;
+        vertical-align: middle;
+        display: inline-block;
+      }
+}
+ /* 1920 */
+ @media screen and (min-width: 1900px) {
+   .edit-quity-info-wrap{
+     margin:0 0 28px 0;
+     padding:0 40px;
+     overflow: hidden;
+   }
+   .edit-quity-info-wrap span{
+     font-size:24px;
+     display: inline-block;
+     width:45%;
+     text-align: left;
+   }
+   .edit-quity-info-wrap span:first-child{
+    margin-right: 10%;
+   }
+    .numberBox {
+        width: 100%;
+        overflow: hidden;
+      }
+      .numberBox ul {
+        list-style-type: none;
+        overflow: hidden;
+        width: 410px;
+        padding-left: 20px;
+        float: left;
+      }
+      .numberBox ul li {
+        float: left;
+        width: 130px;
+        height: 84px;
+        text-align: center;
+        line-height: 84px;
+        font-size: 32px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        color: #2a2b2c;
+      }
+      .numberBox ul li:nth-child(3n) {
+        margin-right: 0;
+      }
+      .numberBox ul li:nth-child(3n) {
+        margin-right: 0;
+      }
+      .numDialog .el-dialog {
+        width: 670px;
+        background: #ffffff;
+        border-radius: 8px;
+      }
+      .numDialog .el-dialog__header{
+          padding-top:32px;
+      }
+      .numDialog .el-dialog__headerbtn .el-dialog__close {
+        font-size: 26px;
+      }
+      .numDialog .el-dialog__title {
+        font-size: 26px;
+        font-weight: 500;
+        color: #333333;
+      }
+      .inputWrap {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 0px 26px 0;
+      }
+      .searchNumInput .el-input__inner {
+        padding: 18px 36px;
+        height:80px;
+        line-height: 80px;
+        background: #ffffff;
+        border: 1px solid #333333;
+        border-radius: 40px;
+        font-size: 26px;
+      }
+      .searchNumInput.el-input--prefix .el-input__inner {
+        padding-left: 91px;
+        padding-right: 91px;
+      }
+      .searchNumInput .el-input__inner:focus {
+        border: 1px solid #ff9c0e;
+      }
+      .searchNumInput .el-input__prefix,
+      .searchNumInput .el-input__suffix {
+        top: 18px;
+      }
+      .searchNumInput .el-input__prefix {
+        left: 28px;
+      }
+      .searchNumInput .el-input__suffix {
+        right: 28px;
+      }
+      .searchNumInput .el-input__suffix-inner img {
+        width: 44px;
+      }
+      .searchNumInput .el-input__prefix img {
+        width: 44px;
+      }
+      .numberBox li.active {
+        background: #e8ebed;
+        border-radius: 9px;
+      }
+      .right-num {
+        float: left;
+        width: 130px;
+        height: 366px;
+        margin: 10px 0 10px 10px;
+      }
+      .right-num p:first-child {
+        width: 126px;
+        height: 84px;
+        margin-top: 0;
+        background: #ffffff;
+        border: 2px solid #eceff1;
+        border-radius: 9px;
+        margin-bottom: 10px;
+        line-height: 84px;
+        text-align: center;
+      }
+      .right-num p:first-child img {
+        width: 44px;
+        vertical-align: middle;
+      }
+      .right-num p:last-child {
+        width: 100%;
+        height: 272px;
+        margin: 0;
+        background: linear-gradient(90deg, #ff9c0e, #ff8800 101%);
+        /* background:-moz-linear-gradient(90deg, #ff9c0e, #ff8800 101%); */
+             background:-webkit-linear-gradient(90deg, #ff9c0e, #ff8800 101%);
+             /* background: -o-linear-gradient(90deg, #ff9c0e, #ff8800 101%); */
+             
+        border-radius: 8px;
+        text-align: center;
+        line-height: 272px;
+        font-size: 26px;
+        font-family: SourceHanSansCN, SourceHanSansCN-Medium;
+        font-weight: 500;
+        text-align: center;
+        color: #ffffff;
+      }
+      .pageWrap {
+        width: 100%;
+        text-align: center;
+      }
+      .pageWrap span.tt {
+        font-size: 26px;
+        color: #333333;
+        font-weight: 500;
+      }
+      .pageWrap input {
+        background: none;
+        outline: none;
+        border: none;
+        width: 116px;
+        height: 51px;
+        background-color: #ffe7ca;
+        text-align: center;
+        margin: 0 5px;
+        font-size: 40px;
+        color: #ff8d00;
+        border-bottom: 2px solid #d8d8d8;
+      }
+      .pageWrap [class^="el-icon-"] {
+        font-size: 36px;
+        vertical-align: middle;
+      }
+      .addIcon {
+        color: #ff8800;
+      }
+      .errMessage {
+        margin-top: 25px;
+        width: 100%;
+        height: 22px;
+        text-align: center;
+      }
+      .errMessage img {
+        vertical-align: middle;
+        width: 24px;
+        margin-right: 10px;
+      }
+      .errMessage span {
+        font-size: 22px;
+        color: #999999;
+        vertical-align: middle;
+        display: inline-block;
+      }
+}

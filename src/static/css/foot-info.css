@@ -1,0 +1,109 @@
+.ft {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 42px;
+    background: #000000;
+    text-align: left;
+    overflow: hidden;
+    padding: 0 24px;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 42px;
+  }
+  .info1 {
+    float:left;
+    /* display: inline-block; */
+    font-size: 18px;
+    color: #ffad00;
+    font-weight: 400;
+    vertical-align: middle;
+  }
+  .info2 {
+    /* display: inline-block; */
+    font-size: 18px;
+    color: #999999;
+    font-weight: 400;
+    float: right;
+    margin-left: 30px;
+    vertical-align: middle;
+  }
+  .info3 {
+    /* text-decoration: underline; */
+  }
+  .itt{
+    display: inline-block;
+    margin:0 20px;
+  }
+  /* 800 */
+  @media screen and (max-width: 850px) {
+  .ft {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 26px;
+    background: #000000;
+    text-align: left;
+    overflow: hidden;
+    padding: 0 16px 0 14px;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 26px;
+  }
+  .info1 {
+    float:left;
+    /* display: inline-block; */
+    font-size: 10px;
+    color: #ffad00;
+    font-weight: 400;
+    vertical-align: middle;
+  }
+  .info2 {
+    /* display: inline-block; */
+    font-size: 10px;
+    color: #999999;
+    font-weight: 400;
+    float: right;
+    margin-left: 16px;
+    vertical-align: middle;
+  }
+  .info3 {
+    /* text-decoration: underline; */
+  }
+  }
+  /* 1920 */
+  @media screen and (min-width: 1900px) {
+  .ft {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    background: #000000;
+    text-align: left;
+    overflow: hidden;
+    padding: 0 45px 0 30px;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 60px;
+  }
+  .info1 {
+    float:left;
+    /* display: inline-block; */
+    font-size: 22px;
+    color: #ffad00;
+    font-weight: 400;
+    vertical-align: middle;
+  }
+  .info2 {
+    /* display: inline-block; */
+    font-size: 24px;
+    color: #999999;
+    font-weight: 400;
+    float: right;
+    margin-left: 50px;
+    vertical-align: middle;
+  }
+  .info3 {
+    /* text-decoration: underline; */
+  }
+  }
